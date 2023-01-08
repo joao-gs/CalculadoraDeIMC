@@ -2,14 +2,14 @@ import "./Calculator.css";
 import React, { useState } from "react";
 
 function Calculator() {
-	const [altura, setAltura] = useState();
-	const [peso, setPeso] = useState();
-	const [resultado, setResultado] = useState();
+	const [height, setHeight] = useState();
+	const [weight, setWeight] = useState();
+	const [result, setResult] = useState();
 
 	function calculate(){
-		const imc = peso/(altura*altura);
-		const imcFormatado = imc.toFixed(2);
-		setResultado(imcFormatado);
+		const imc = weight/(height*height);
+		const imcModified = imc.toFixed(2);
+		setResult(imcModified);
     }
 
 
@@ -17,20 +17,20 @@ function Calculator() {
 		<div className="Calculator">
 			<h3>Altura</h3>
 			<input type="number"
-				value={altura}
-				onChange={(e)=>setAltura(+e.target.value)}
+				value={height}
+				onChange={(e)=>setHeight(+e.target.value)}
 				placeholder="Altura (m)">
 
 			</input>
 			<h3>Peso</h3>
 			<input type="number"
-				value={peso}
-				onChange={(e)=>setPeso(+e.target.value)}
+				value={weight}
+				onChange={(e)=>setWeight(+e.target.value)}
 				placeholder="Peso (kg)">
             </input>
 			<button onClick={calculate} className="Calculator-botao" >Calcular</button>
             <br />
-			<h3>{resultado}</h3>
+			<h3>{result}</h3>
 		</div>
 	);
 }
