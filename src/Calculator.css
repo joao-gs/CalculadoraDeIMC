@@ -1,0 +1,52 @@
+.Calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.Calculator h3 {
+    color: rgb(54, 41, 41);
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+
+.Calculator input {
+    background-color: rgba(128, 111, 111, 0.437);
+    border-radius: 5px;
+    border-color: rgba(76, 65, 65, 0.147);
+    color: rgb(54, 41, 41);
+    font-size: 18px;
+    font-weight: bold;
+    width: 185px;
+}
+
+.Calculator input:focus {
+    outline: 0;
+    border: 3px solid rgba(34, 30, 30, 0.329);
+
+
+
+}
+
+.Calculator input::placeholder {
+    color: rgba(54, 41, 41, 0.199);
+}
+
+.Calculator-botao {
+    margin-top: 10px;
+    padding: 10px 60px 10px 60px;
+    border-radius: 5px;
+    background-color: rgba(128, 111, 111, 0.437);
+    border-color: rgba(76, 65, 65, 0.147);
+    color: rgb(54, 41, 41);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Calculator-botao:active {
+    background-color: rgba(118, 102, 102, 0.437);
+    color: rgb(54, 41, 41);
+    border: 3px solid rgba(34, 30, 30, 0.329);
+}

@@ -1,0 +1,6 @@
+.Header-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(54, 41, 41);
+}

@@ -1,0 +1,6 @@
+.Footer-conteudo {
+    display: flex;
+    justify-content: center;
+    color: rgb(54, 41, 41);
+    font-size: 18px;
+}
