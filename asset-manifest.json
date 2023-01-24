@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CalculadoraDeIMC/static/css/main.32e39de6.css",
+    "main.js": "/CalculadoraDeIMC/static/js/main.6f3b73f6.js",
+    "static/media/fundo.png": "/CalculadoraDeIMC/static/media/fundo.c4c62d60651d2b72b2bc.png",
+    "index.html": "/CalculadoraDeIMC/index.html",
+    "main.32e39de6.css.map": "/CalculadoraDeIMC/static/css/main.32e39de6.css.map",
+    "main.6f3b73f6.js.map": "/CalculadoraDeIMC/static/js/main.6f3b73f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32e39de6.css",
+    "static/js/main.6f3b73f6.js"
+  ]
+}
